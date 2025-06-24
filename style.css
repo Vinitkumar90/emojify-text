@@ -47,7 +47,7 @@ width:100%;
 }
 
 textarea {
-  width:500px;
+  width:480px;
   height: 100px;
   margin: 10px 0;
   padding: 12px;
@@ -131,7 +131,7 @@ textarea {
 
   textarea {
     height: 80px;
-    width:400px;
+    width:100%;
     font-size: 0.95rem;
   }
 
@@ -140,8 +140,15 @@ textarea {
   }
 }
 
-@media (max-width:400px){
+/* @media (max-width:475px){
     textarea{
-        width:200px;
+      width:240px;
     }
 }
+
+@media (max-width:315px){
+  textarea{
+    width:100%;
+    height:90px;
+  }
+} */
